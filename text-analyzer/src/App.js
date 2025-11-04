@@ -57,7 +57,7 @@ export default function App() {
           <textarea
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Paste a short paragraph (1-6 sentences)"
+            placeholder="Paste a short paragraph "
             rows={6}
             style={{
               width: "100%",
