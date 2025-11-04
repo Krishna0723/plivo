@@ -49,8 +49,7 @@ export default function App() {
       <h1 style={{ marginBottom: 6 }}>n8n + LLM — Text Analyzer</h1>
       <p style={{ color: "#555", marginTop: 0 }}>
         Enter a short paragraph and choose <strong>Summary</strong> or{" "}
-        <strong>Sentiment</strong>. This frontend sends the text to an n8n
-        webhook which calls an LLM and returns the result.
+        <strong>Sentiment</strong>.
       </p>
 
       <form onSubmit={handleSubmit} style={{ display: "grid", gap: 12 }}>
